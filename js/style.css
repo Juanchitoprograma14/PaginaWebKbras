@@ -116,7 +116,7 @@ body {
     border-radius: 8px;
     padding: 0.5rem 0;
 }
-.dropdown-item { color: #fff; padding: 0.6rem 1.5rem; }
+.dropdown-item { color: #000000; padding: 0.6rem 1.5rem; }
 .dropdown-item:hover { background-color: #FF3823; color: #fff; }
 
 /* Carrito */
@@ -165,13 +165,25 @@ body {
     border-bottom: 1px solid #FF3823;
     font-weight: 700;
 }
-#lista_carrito td { color: #ddd; border-color: #333; }
+#lista_carrito td { color: #000000; border-color: #333; }
 
 .carrito-total {
     border-top: 1px solid #FF3823;
     padding-top: 10px;
     color: #fff;
     font-size: 1.2rem;
+}
+
+.btn-eliminar {
+    background: none;
+    border: none;
+    color: #FF3823;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 5px;
+}
+.btn-eliminar:hover {
+    color: #fff;
 }
 
 /* =========================================
